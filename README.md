@@ -1,5 +1,5 @@
 # Tecweb-Project
-Progetto di Tecnologie Web del corso di Laurea triennale dell'Università degli studi di Padova.
-Il sito è realizzato per la palestra Body Evolution di Cavarzere(VE).
-## Database e primo avvio
-Il sito richiede un Database MySql. Per la creazione delle tabelle utilizzate e dei trigger, occorrerà utilizzare il file "palestra.sql" allegato, presente nella cartella "Database" nella root del progetto. Esso si occuperà di generare il Database con tutte il necessario per il corretto funzionamento. Successivamente si dovrà modificare il file "config.php", presente nella root del sito, all'interno della cartella "PHP". Occorrerà infatti indicare i dati per l'accesso al Database (HostDB, Username, Password e PasswordDB). Lo script SQL non si occupa di creare il Database, ma soltanto di popolarlo. Pertanto, il nome del Database, che deve essere specificato in "config.php", è a propria discrezione. Una volta ultimate le suddette configurazioni, il sito è utilizzabile collegandosi all'url designato.
+Academic project for the "Object-oriented programming" course at University of Padua.
+Website (italian language) of the "Body Evolution" gym in Cavarzere (Venice).
+## Database and configuration
+It's required a MySql database. To generate tables and triggers use "palestra.sql" script, inside "Database" folder. Afetr this, it's necessary to modify the "config.php" file, setting data for Database access (HostDB, Username, Password and PasswordDB).
